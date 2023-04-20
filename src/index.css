@@ -237,4 +237,8 @@ button {
   button {
     top: 1400px;
   }
+  
+  h1 {
+    font-size: 30px;
+  }
 }
