@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#title {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDxPmx5JirnVVfUG2jBX78LZoP6wLPq9l6Jw&usqp=CAU');
+  height: 125px;
+  box-shadow: 0 5px 5px navy;
+  position: sticky;
+  top: 0;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  transition: .25s;
+  font-family: 'Gill Sans';
+  z-index: 2;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0 auto;
+  padding: 10px;
+  color: navy;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 5px 5px navy;
+  background-color: white;
+  width: 648px;
+  text-align: center;
+}
+
+h1, .navlink {
+  font-family: 'Aboreto';
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 504px;
+  font-weight: 1000;
+  box-shadow: 0 5px 5px navy;
+}
+
+.navlink {
+  background-color: white;
+  opacity: .5;
+  padding: 5px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  animation: opaque;
+}
+
+.dark {
+  opacity: 1;
+}
+
+.back-img {
+  height: 450px;
+  width: 100%;
+  box-shadow: 0 5px 5px navy;
+}
+
+p, #green, label, input {
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 3px grey;
+  text-indent: 50px;
+  line-height: 45px;
+  width: 80%;
+  margin: auto;
+}
+
+#green {
+  display: block;
+  margin: 50px auto;
+}
+
+.content {
+  padding: 50px 0;
+}
+
+.inset {
+  border: 3px inset white;
+  margin: 50px;
+}
+
+h2 {
+  font-size: 38px;
+  color: white;
+  font-family: 'Aboreto';
+  text-align: center;
+}
+
+.names {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.img {
+  border-radius: 40%;
+}
+
+.name {
+  width: 100%;
+  text-indent: 0;
+  text-align: center;
+}
+
+.worker {
+  margin-top: 50px;
+  z-index: 1;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#webdev {
+  color: black;
+  border: 3px inset white;
+  margin-top: 5px;
+}
+
+button {
+  font-size: 50px;
+  border-radius: 10px;
+}
+
+input {
+  border-radius: 10px;
+  width: 400px;
+  font-size: 15px;
+  z-index: 1;
+  color: black;
+}
+
+.input {
+  text-align: center;
+  margin: 20px;
+}
+
+.invalid input {
+  opacity: .5;
+  background-color: #b40e0e;
+}
+
+button {
+  font-size: 35px;
+  width: 400px;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 1250px;
+  color: navy;
+  font-family: 'Aboreto';
+}
+
+#creditcard {
+  margin-bottom: 90px;
+}
+
+#message {
+  border-radius: 10px;
+  position: relative;
+  top: 20px;
+  animation: fade;
+  animation-duration: .5s;
+}
+
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@media screen and (max-width: 650px) {
+  p {
+    font-size: 25px;
+  }
+
+  h1 {
+    width: 90%;
+  }
+
+  nav {
+    width: 80%;
+  }
+
+  button {
+    top: 1300px;
+    width: 300px;
+    font-size: 30px;
+  }
+
+  input {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  #title {
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  #title {
+    height: 210px;
+  }
+
+  button {
+    top: 1350px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #title {
+    height: 280px;
+  }
+
+  button {
+    top: 1400px;
+  }
+}
