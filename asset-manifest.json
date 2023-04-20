@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dcs_housing/static/css/main.0df98dd7.css",
-    "main.js": "/dcs_housing/static/js/main.41cccb8c.js",
+    "main.css": "/dcs_housing/static/css/main.604d6483.css",
+    "main.js": "/dcs_housing/static/js/main.b18d5f71.js",
     "static/js/787.89c8dc45.chunk.js": "/dcs_housing/static/js/787.89c8dc45.chunk.js",
     "index.html": "/dcs_housing/index.html",
-    "main.0df98dd7.css.map": "/dcs_housing/static/css/main.0df98dd7.css.map",
-    "main.41cccb8c.js.map": "/dcs_housing/static/js/main.41cccb8c.js.map",
+    "main.604d6483.css.map": "/dcs_housing/static/css/main.604d6483.css.map",
+    "main.b18d5f71.js.map": "/dcs_housing/static/js/main.b18d5f71.js.map",
     "787.89c8dc45.chunk.js.map": "/dcs_housing/static/js/787.89c8dc45.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0df98dd7.css",
-    "static/js/main.41cccb8c.js"
+    "static/css/main.604d6483.css",
+    "static/js/main.b18d5f71.js"
   ]
 }
