@@ -230,14 +230,10 @@ button {
 }
 
 @media screen and (max-width: 420px) {
-  #title {
-    height: 280px;
+  button {
+    top: 1310px;
   }
 
-  button {
-    top: 1400px;
-  }
-  
   h1 {
     font-size: 30px;
   }
