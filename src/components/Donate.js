@@ -26,7 +26,7 @@ export default function Donate() {
         handleCreditSubmit();
         if (formValid) {
             try {
-                const response = await fetch('https://react-http-627af-default-rtdb.firebaseio.com/donation.json', {
+                const response = await fetch('https://x-project-b7ed9-default-rtdb.firebaseio.com/donation.json', {
                     method: 'POST',
                     body: JSON.stringify({name: `${firstInput} ${lastInput}`, amount: moneyInput, phone: phoneInput, creditCard: creditInput}),
                     headers: {
